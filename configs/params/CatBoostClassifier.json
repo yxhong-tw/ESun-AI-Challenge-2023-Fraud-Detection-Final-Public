@@ -1,0 +1,17 @@
+{
+    "bagging_temperature": 0.4997794618053436,
+    "boosting_type": "Ordered",
+    "bootstrap_type": "Bayesian",
+    "depth": 6,
+    "eval_metric": "F1",
+    "feature_border_type": "GreedyLogSum",
+    "grow_policy": "SymmetricTree",
+    "iterations": 350,
+    "l2_leaf_reg": 6.5,
+    "learning_rate": 0.35029919901030165,
+    "loss_function": "Logloss",
+    "nan_mode": "Forbidden",
+    "random_seed": 48763,
+    "random_strength": 4.232118940927654,
+    "task_type": "CPU"
+}

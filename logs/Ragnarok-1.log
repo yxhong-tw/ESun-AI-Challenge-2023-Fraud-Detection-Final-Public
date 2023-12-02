@@ -1,0 +1,63 @@
+2023-12-02 05:34:31,661 - root - INFO - Command: python3 main.py -c configs/configs.ini -m train_with_optuna -uofed
+2023-12-02 05:34:31,661 - initialize - INFO - Initialization has been started.
+2023-12-02 05:34:31,661 - initialize - INFO - Seed has been set into 48763.
+2023-12-02 05:34:31,661 - initialize - INFO - Loading train data.
+2023-12-02 05:35:46,296 - initialize - INFO - train data has been loaded.
+2023-12-02 05:35:46,297 - initialize - INFO - Loading Ragnarok-0_train_x data.
+2023-12-02 05:36:23,542 - utils - INFO - x does not have "txkey" feature.
+2023-12-02 05:36:23,542 - initialize - INFO - Ragnarok-0_train_x data has been loaded.
+2023-12-02 05:36:24,557 - initialize - INFO - (Train) Checking need to drop columns.
+2023-12-02 05:36:27,310 - initialize - INFO - autoFE_f_0: 1522, float64
+2023-12-02 05:36:27,347 - initialize - INFO - autoFE_f_2: 46993, float64
+2023-12-02 05:36:27,556 - initialize - INFO - autoFE_f_18: 4, float64
+2023-12-02 05:36:27,565 - initialize - INFO - The autoFE_f_19's dtype is category.
+2023-12-02 05:36:30,599 - initialize - INFO - autoFE_f_29: 5529, float64
+2023-12-02 05:36:30,599 - initialize - INFO - Drop columns.
+2023-12-02 05:36:30,599 - initialize - INFO - autoFE_f_18 has been dropped.
+2023-12-02 05:36:32,807 - initialize - INFO - autoFE_f_0 has been dropped.
+2023-12-02 05:36:35,531 - initialize - INFO - autoFE_f_2 has been dropped.
+2023-12-02 05:36:38,201 - initialize - INFO - autoFE_f_29 has been dropped.
+2023-12-02 05:37:09,955 - initialize - INFO - The details of parameters: 
+{'seed': '48763', 'version': 'Ragnarok-1', 'version_info': 'Train CatBoost', 'checkpoint_version': 'None', 'model_name': 'CatBoostClassifier', 'data_version': 'Ragnarok-0', 'train_data': <catboost.core.Pool object at 0x7f505261f5e0>}
+2023-12-02 05:37:09,955 - initialize - INFO - Initialization has been finished.
+2023-12-02 05:37:11,541 - train - INFO - Training with Optuna has been started.
+2023-12-02 05:37:11,541 - initialize - INFO - Raise an exception when loading checkpoint. 
+It may be caused by no configs is given.
+2023-12-02 05:37:11,541 - initialize - INFO - The details of CatBoostClassifier: 
+{'iterations': 1249, 'learning_rate': 0.35029919901030165, 'depth': 6, 'l2_leaf_reg': 6.5, 'loss_function': 'Logloss', 'feature_border_type': 'GreedyLogSum', 'nan_mode': 'Forbidden', 'random_seed': 48763, 'random_strength': 4.232118940927654, 'eval_metric': 'F1', 'bagging_temperature': 0.4997794618053436, 'boosting_type': 'Ordered', 'task_type': 'CPU', 'bootstrap_type': 'Bayesian', 'grow_policy': 'SymmetricTree'}
+2023-12-02 05:37:11,541 - initialize - INFO - CatBoostClassifier has been initialized.
+2023-12-02 05:44:30,669 - root - INFO - Command: python3 main.py -c configs/configs.ini -m train_with_optuna -uofed
+2023-12-02 05:44:30,669 - initialize - INFO - Initialization has been started.
+2023-12-02 05:44:30,670 - initialize - INFO - Seed has been set into 48763.
+2023-12-02 05:44:30,670 - initialize - INFO - Loading train data.
+2023-12-02 05:45:47,725 - initialize - INFO - train data has been loaded.
+2023-12-02 05:45:47,725 - initialize - INFO - Loading Ragnarok-0_train_x data.
+2023-12-02 05:46:25,297 - utils - INFO - x does not have "txkey" feature.
+2023-12-02 05:46:25,297 - initialize - INFO - Ragnarok-0_train_x data has been loaded.
+2023-12-02 05:46:26,339 - initialize - INFO - (Train) Checking need to drop columns.
+2023-12-02 05:46:29,166 - initialize - INFO - autoFE_f_0: 1522, float64
+2023-12-02 05:46:29,204 - initialize - INFO - autoFE_f_2: 46993, float64
+2023-12-02 05:46:29,417 - initialize - INFO - autoFE_f_18: 4, float64
+2023-12-02 05:46:29,425 - initialize - INFO - The autoFE_f_19's dtype is category.
+2023-12-02 05:46:32,508 - initialize - INFO - autoFE_f_29: 5529, float64
+2023-12-02 05:46:32,508 - initialize - INFO - Drop columns.
+2023-12-02 05:46:32,508 - initialize - INFO - autoFE_f_29 has been dropped.
+2023-12-02 05:46:34,775 - initialize - INFO - autoFE_f_2 has been dropped.
+2023-12-02 05:46:37,509 - initialize - INFO - autoFE_f_18 has been dropped.
+2023-12-02 05:46:40,235 - initialize - INFO - autoFE_f_0 has been dropped.
+2023-12-02 05:47:12,202 - initialize - INFO - The details of parameters: 
+{'seed': '48763', 'version': 'Ragnarok-1', 'version_info': 'Train CatBoost', 'checkpoint_version': 'None', 'model_name': 'CatBoostClassifier', 'data_version': 'Ragnarok-0', 'train_data': <catboost.core.Pool object at 0x7fca024e0820>}
+2023-12-02 05:47:12,202 - initialize - INFO - Initialization has been finished.
+2023-12-02 05:47:13,803 - train - INFO - Training with Optuna has been started.
+2023-12-02 05:47:13,804 - initialize - INFO - Raise an exception when loading checkpoint. 
+It may be caused by no configs is given.
+2023-12-02 05:47:13,804 - initialize - INFO - The details of CatBoostClassifier: 
+{'iterations': 350, 'learning_rate': 0.35029919901030165, 'depth': 6, 'l2_leaf_reg': 6.5, 'loss_function': 'Logloss', 'feature_border_type': 'GreedyLogSum', 'nan_mode': 'Forbidden', 'random_seed': 48763, 'random_strength': 4.232118940927654, 'eval_metric': 'F1', 'bagging_temperature': 0.4997794618053436, 'boosting_type': 'Ordered', 'task_type': 'CPU', 'bootstrap_type': 'Bayesian', 'grow_policy': 'SymmetricTree'}
+2023-12-02 05:47:13,804 - initialize - INFO - CatBoostClassifier has been initialized.
+2023-12-02 06:48:56,816 - train - INFO - The best training loss: 0.0012187826782110085
+2023-12-02 06:48:56,816 - train - INFO - Training with Optuna has been finished.
+2023-12-02 06:48:56,817 - train - INFO - The best trial: 0.0012187826782110085
+2023-12-02 06:48:56,817 - train - INFO - The best trial params: 
+2023-12-02 06:48:56,817 - save - INFO - Saving results has been started.
+2023-12-02 06:49:11,150 - save - INFO - Saving model has been finished.
+2023-12-02 06:49:11,150 - save - INFO - Saving results has been finished.

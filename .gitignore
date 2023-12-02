@@ -1,0 +1,12 @@
+__pycache__
+catboost_info
+data/*
+official_data
+
+*.cbm
+*.code-workspace
+*.feather
+*.h5
+*.pkl
+
+!data/README.md

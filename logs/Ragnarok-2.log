@@ -1,0 +1,41 @@
+2023-12-02 06:51:42,909 - root - INFO - Command: python3 main.py -m inference -uofed
+2023-12-02 06:51:42,910 - initialize - INFO - Initialization has been started.
+2023-12-02 06:51:42,910 - initialize - INFO - Seed has been set into 48763.
+2023-12-02 06:51:42,910 - initialize - INFO - Loading unlabeled data.
+2023-12-02 06:51:48,557 - initialize - INFO - unlabeled data has been loaded.
+2023-12-02 06:51:48,557 - initialize - INFO - Loading Ragnarok-0_unlabeled data.
+2023-12-02 06:51:52,649 - utils - INFO - x does not have "txkey" feature.
+2023-12-02 06:51:52,650 - initialize - INFO - Ragnarok-0_unlabeled data has been loaded.
+2023-12-02 06:51:52,671 - initialize - INFO - Below features are dropped because they contain NaN values.
+2023-12-02 06:51:52,671 - initialize - INFO - autoFE_f_0
+2023-12-02 06:51:52,845 - initialize - INFO - autoFE_f_2
+2023-12-02 06:51:53,055 - initialize - INFO - autoFE_f_18
+2023-12-02 06:51:53,262 - initialize - INFO - autoFE_f_29
+2023-12-02 06:51:53,471 - initialize - INFO - Change the column type to "str" if it is "category".
+2023-12-02 06:51:58,663 - initialize - INFO - Checkpoint has been loaded from outputs/checkpoints/Ragnarok-1.cbm.
+2023-12-02 06:51:58,663 - initialize - INFO - The details of CatBoostClassifier: 
+{'random_strength': 4.232118941, 'bootstrap_type': 'Bayesian', 'eval_metric': 'F1', 'boosting_type': 'Ordered', 'iterations': 350, 'nan_mode': 'Forbidden', 'bagging_temperature': 0.4997794618, 'loss_function': 'Logloss', 'grow_policy': 'SymmetricTree', 'l2_leaf_reg': 6.5, 'task_type': 'CPU', 'depth': 6, 'feature_border_type': 'GreedyLogSum', 'learning_rate': 0.350299199, 'random_seed': 48763}
+2023-12-02 06:51:58,663 - initialize - INFO - CatBoostClassifier has been initialized.
+2023-12-02 06:51:58,688 - initialize - INFO - The details of parameters: 
+{'seed': '48763', 'version': 'Ragnarok-2', 'version_info': 'Ragnarok-1 inference', 'checkpoint_version': 'Ragnarok-1', 'model_name': 'CatBoostClassifier', 'data_version': 'Ragnarok-0', 'origin_unlabeled_df':                                                     txkey  locdt  loctm  ... csmam flg_3dsmk  locdt_7_remainder
+0       2dc3cfff76e54b508aec3a1ab7d3f3b9770d670c9cb988...     67  56803  ...   589         0                  4
+1       5e4e0386a88cdf7847631e80fb129bbbf942a8ab68390b...     65  59634  ...    10         0                  2
+2       ba2ec4f84fa996e4dbcb42984451b217fe2e9cd0b7d3da...     65  30303  ...     0         0                  2
+3       a6f137a7444829310471ff9dd051addc349920ae07c5bb...     67  27399  ...    80         0                  4
+4       b4b3f47913e3142ca7cc54ab5d98fafc00174ad1c63206...     68  52976  ...   210         0                  5
+...                                                   ...    ...    ...  ...   ...       ...                ...
+805716  f192c75180efd46e8746c9926d48f89b4f9bd730974d67...     65  56095  ...   188         0                  2
+805717  79a032788e6f1c684a8c1ac514f8bd3c9fc99498698604...     65  82474  ...  1038         0                  2
+805718  03bd77b8d2e0fa4a2d5d6fa417afb3f94ba65e4d3075ff...     67  36078  ...     3         0                  4
+805719  ddea7082b8a1830efa2f80b36e02378475ad89b7b2fa74...     65  48482  ...  4638         0                  2
+805720  5a5fca48dffaf0787a8e8a63e89cdd1120b3709a4940cf...     69  77688  ...   256         0                  6
+
+[805721 rows x 26 columns], 'unlabeled_data': <catboost.core.Pool object at 0x7efc30f1fa00>, 'model': <catboost.core.CatBoostClassifier object at 0x7efc82015d80>}
+2023-12-02 06:51:58,688 - initialize - INFO - Initialization has been finished.
+2023-12-02 06:51:58,808 - inference - INFO - Inferencing has been started.
+2023-12-02 06:51:59,590 - inference - INFO - Inferencing has been finished.
+2023-12-02 06:51:59,590 - save - INFO - Saving results has been started.
+2023-12-02 06:52:01,317 - save - INFO - Number of data's prediction is 1: 4010
+2023-12-02 06:52:01,317 - save - INFO - Number of data: 805721
+2023-12-02 06:52:01,317 - save - INFO - Writing predictions has been finished.
+2023-12-02 06:52:01,325 - save - INFO - Saving results has been finished.
